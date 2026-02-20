@@ -3,7 +3,8 @@
 
 
 function markAsDone(todos) {
-  while (let i = 0; i < todos.length; i++) {
+let i = 0;
+  while (i < todos.length; i++) {
     todos[i] = "done - " + todos[i];
   }
   return todos;
@@ -16,4 +17,5 @@ function markAsDone(todos) {
 
 //should loop through the todos, using a while loop,
 //and prepend the string 'done - ' to each todo description
+
 
